@@ -1,0 +1,264 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+
+}
+#container{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 100px;
+
+}
+
+.logo{
+    width: 120px;
+
+}
+
+.listItems{
+    list-style: none;
+    display: inline;
+    margin: 0px 20px;
+
+}
+
+.links{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+
+
+
+.links:hover{
+    text-decoration: underline;
+    color: rgb(230, 11, 22);
+
+}
+
+.homecontents{
+    margin: 13% 0px 0px 8%;
+}
+
+#username{
+    font-size:50px ;
+    font-family: "Sofia", cursive;
+   margin-bottom: 20px;
+}
+#lname{
+    font-family: "Sofia", cursive;
+    color: orange;
+}
+#userDetails{
+    line-height: 1.2;
+}
+#download{
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 10px;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+
+.homeImages{
+    width: 45%;
+    height: 75%;
+    position: absolute;
+    right: 30px;
+    bottom: 0px;
+
+}
+.group1{
+    position:absolute;
+    height: 100%;
+    bottom: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: botom 2s, left 1s;
+}
+
+.homeImages:hover #shape{
+    bottom: 70px;
+}
+.homeImages:hover #girl{
+    left: 40%;
+}
+#about{
+    margin: 15% 8% 0px 8%;
+}
+.sectionHead{
+    text-align: center;
+}
+.mainHead{
+    font-size: 30px;
+}
+.subHead{
+    font-size: 20px;
+    color: green;
+}
+
+.aboutBody{
+    margin-top: 30px;
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 20px;
+}
+.img1{
+    width: 80%;
+}
+.aboutContent{
+    font-size: 20px;
+    text-align: justify;
+}
+.information{
+    margin-top: 1.3rem;
+}
+.infoBox{
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+.infoBox>span{
+    margin-left: 1rem;
+}
+.skill{
+    margin: 8% 8% 0px 8%;
+}
+.skillContent{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 2rem;
+  
+}
+.img2{
+    width: 70%;
+
+}
+.bars{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0px;
+    position: relative;
+}
+.barHead,.barPercent{
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+.baseBar{
+    width: 100%;
+    height: 0.5rem;
+    background-color: black;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 0px;
+}
+.htmlBar{
+    background-color: orange;
+    width: 91%;
+}
+.jsBar{
+    background-color: orange;
+    width: 86%;
+}
+.cssBar{
+    background-color: orange;
+    width: 85%;
+
+}
+.reactBar{
+    background-color: orange;
+    width: 89%;
+    
+}
+
+
+#contact{
+    margin: 0px 8%;
+}
+.iconCollection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.icon{
+    
+   
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 10px;
+}
+.brands{
+    color: black;
+    font-size: 2rem;
+}
+.icon:hover{
+
+    background-image: linear-gradient(to bottom right,red,yellow);
+}
+.icon:hover .brands{
+    color: white;
+    animation: rotate 3s;
+
+}
+@keyframes rotate{
+0%{
+    transform: rotate(30deg);
+}
+20%{
+    transform: rotate(-30deg);
+}
+40%{
+    transform: rotate(30deg);
+}
+80%{
+    transform: rotate(-30deg);
+}
+100%{
+    transform: rotate(30deg);
+}
+}
+footer{
+    margin: 8% 0px 0px 0%;
+    
+}
+#copyright{
+    text-align: center;
+font-weight: 700;
+}
+.uparrow{
+    float: right;
+    margin: -30px 30px 30px 0px;
+}
+html{
+    scroll-behavior: smooth;
+
+}
+::-webkit-scrollbar-track{
+    background-color: azure;
+}
+::-webkit-scrollbar-thumb{
+    background-color: yellow;
+    border-radius: 10px;
+}
+
+
